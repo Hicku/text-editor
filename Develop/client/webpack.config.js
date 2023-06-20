@@ -63,9 +63,9 @@ module.exports = () => {
               presets: ['@babel/preset-env'],
               plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
             }
-          } // <-- Closing bracket added here
+          } 
         }
-      ] // <-- Closing bracket added here
+      ] 
     }
-  }; // <-- Closing bracket added here
+  }; 
 };
