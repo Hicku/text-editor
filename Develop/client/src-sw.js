@@ -35,7 +35,6 @@ registerRoute(
   
     cacheName: 'asset-cache',
     plugins: [
-      // plugin to cache responses with maximum age of 30 days
       new CacheableResponsePlugin({
         statuses: [0, 200],
       }),
